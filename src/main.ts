@@ -22,7 +22,7 @@ const messages = Object.fromEntries(
 );
 app.use(createI18n({
   legacy: false,
-  locale: unref(useLocalStorage("locale", "zh-CN")),
+  locale: unref(useLocalStorage("locale", "ja")),
   messages,
 }));
 app.use(createPinia());

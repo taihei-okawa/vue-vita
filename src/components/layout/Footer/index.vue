@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Avatar from "~/assets/avatar.jpg";
+import Avatar from "~/assets/logo.svg";
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import Avatar from "~/assets/avatar.jpg";
   >
     <div class="flex w-full max-w-6xl flex-row items-center justify-between gap-6">
       <a
-        href="https://github.com/kirklin"
+        href="https://pinia.vuejs.org/"
         target="_blank"
         rel="nofollow"
         class="inline-flex items-center justify-center hover:opacity-90"
@@ -18,14 +18,14 @@ import Avatar from "~/assets/avatar.jpg";
              width="54"
              height="54"
              :src="Avatar"
-             alt="Kirk Lin"
+             alt="Taihei Okawa"
              class="mask mask-squircle"
            >
          </div>
        </div>
         <div class="text-left">
           <p class="text-xs text-base-content text-opacity-50">Created by</p>
-          <h2 class="text-lg font-bold text-base-content">Kirk Lin</h2>
+          <h2 class="text-lg font-bold text-base-content">Taihei Okawa</h2>
         </div>
       </a>
       <div class="flex flex-col items-center gap-4 text-left sm:flex-row">
